@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concentration</title>
+    <link rel="stylesheet" href="style.css?v=2" />
+  </head>
+  <body>
+    <div class="desktop-layout">
+      <aside class="sidebar-panel">
+        <h1>Concentration</h1>
+        <p class="subtitle">Flip cards to reveal matching pairs.</p>
+
+        <div class="stats-card">
+          <div class="stat-item">
+            <span class="stat-label">Flips</span>
+            <span class="stat-value" id="flip-count">0</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-label">Score</span>
+            <span class="stat-value" id="score-count">0</span>
+          </div>
+        </div>
+        <div class="controls">
+          <button id="new-game-btn">New Game</button>
+          <p id="win-message" class="hidden"></p>
+        </div>
+      </aside>
+      <main class="board-container">
+        <div class="board" id="board">
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+          <button class="card"></button>
+        </div>
+      </main>
+    </div>
+    <script src="game.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
